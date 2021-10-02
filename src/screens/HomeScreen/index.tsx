@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {ScrollView, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import {VerticalScrollView} from '../../components/VerticalScrollView';
 import {MadeForYou} from './components/MadeForYou';
 import {PopularArtists} from './components/PopularArtists';
 import {RecentlyPlayed} from './components/RecentlyPlayed';
@@ -15,12 +16,12 @@ const styles = StyleSheet.create({
 export const HomeScreen: React.FunctionComponent<HomeScreenProps> = () => {
   return (
     <View>
-      <ScrollView style={styles.scroll}>
+      <VerticalScrollView style={styles.scroll}>
         <RecentlyPlayed />
         <MadeForYou />
         <UniquelyYours />
         <PopularArtists />
-      </ScrollView>
+      </VerticalScrollView>
     </View>
   );
 };

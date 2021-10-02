@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   inactiveText: {
-    color: '#ececec',
+    color: 'rgba(200,200,200,1)',
   },
 });
 
@@ -72,7 +72,7 @@ export const TabNavigator: React.FunctionComponent<BottomTabBarProps> =
               })}>
               <Ionicons
                 name={isFocused ? icons.active : icons.inactive}
-                color={'#fff'}
+                color={isFocused ? '#fff' : 'rgba(200,200,200,1)'}
                 size={25}
               />
               <Text

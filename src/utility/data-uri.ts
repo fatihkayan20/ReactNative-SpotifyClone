@@ -85,3 +85,36 @@ export const popularArtists = [
     name: 'Peter Sandberg',
   },
 ];
+
+export const browseAllList = [
+  {
+    title: 'Podcasts',
+    backgroundColor: 'rgb(39, 133, 106)',
+    img: 'https://i.scdn.co/image/567158eb895ad26718a814345af0fc43ee785ec5',
+  },
+  {
+    title: 'Made For You',
+    backgroundColor: 'rgb(30, 50, 100)',
+    img: 'https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe',
+  },
+  {
+    title: 'Charts',
+    backgroundColor: 'rgb(141, 103, 171)',
+    img: 'https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg',
+  },
+  {
+    title: 'New Releases',
+    backgroundColor: 'rgb(232, 17, 91)',
+    img: 'https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112',
+  },
+  {
+    title: 'Discover',
+    backgroundColor: 'rgb(141, 103, 171)',
+    img: 'https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg',
+  },
+  {
+    title: 'Concerts',
+    backgroundColor: 'rgb(30, 50, 100)',
+    img: 'https://t.scdn.co/images/8cfa9cb1e43a404db76eed6ad594057c',
+  },
+];
